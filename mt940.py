@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2017 Xpansa Group (<http://xpansa.com>).
+#    Copyright (C) 2020 Entuura (Asia) Limited (<http://entuura.org>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as
@@ -25,7 +25,7 @@ _logger = logging.getLogger(__name__)
 
 
 class MT940Parser(MT940):
-    """ parser for MT940 bank statement import files
+    """ parser for MT940 UBS SA bank statement import files
     """
 
     # tag_61_regex = re.compile(
@@ -57,11 +57,11 @@ class MT940Parser(MT940):
                               )
 
     def __init__(self):
-        """ Raiffeisen MT940 parser initialization
+        """ UBS MT940 parser initialization
         """
         super(MT940Parser, self).__init__()
 
-        self.mt940_type = 'Raiffeisen'
+        self.mt940_type = 'UBS'
         self.header_lines = 0
         self.header_regex = r'^:20'
         self.footer_regex = r'^\-$'
