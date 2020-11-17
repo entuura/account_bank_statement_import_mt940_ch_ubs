@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2017 Xpansa Group (<http://xpansa.com>).
+#    Copyright (C) 2020 Entuura (Asia) Limited  (<http://entuura.org>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as
@@ -25,7 +25,7 @@ class AccountBankStatementImport(models.TransientModel):
     _inherit = 'account.bank.statement.import'
 
     def _parse_file(self, data_file, context=None):
-        """ Parse Raiffeisen Bank MT940 file
+        """ Parse UBS SA Bank MT940 file
         """
         parser = Parser()
         try:

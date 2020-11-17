@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2017 Xpansa Group (<http://xpansa.com>).
+#    Copyright (C) 2020 Entuura (Asia) Limited (<http://entuura.org>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as
