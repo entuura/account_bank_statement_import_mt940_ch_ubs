@@ -1,6 +1,6 @@
 ##############################################################################
 #
-#    Copyright (C) 2017 Xpansa Group (<http://xpansa.com>).
+#    Copyright (C) 2020 Entuura (Asia) Limited  (<http://entuura.org>).
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as
@@ -21,8 +21,8 @@
     'name': 'MT940 UBS Format Bank Statements Import',
     'version': '1.0.1.0.0',
     'license': 'AGPL-3',
-    'author': 'Ventor, Xpansa Group, flectra Community Association (OCA)',
-    'website': 'https://gitlab.com/flectra-community/l10n-poland',
+    'author': 'Entuura (Asia) Limited',
+    'website': 'https://github.com/entuura/account_bank_statement_import_mt940_ch_ubs',
     'category': 'Banking Addons',
     'depends': [
         'account_bank_statement_import_mt940_base',
